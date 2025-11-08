@@ -17,6 +17,4 @@ Onchain kit provided a basically seamless implementation of wallet connecting an
 
 Initially I was going to use Klaster SDK interchain transactions in order to do bridging & swaps, however I discovered this could only be done with a Klaster SDK smart wallet, whereas I wanted to do this with EOAs - I believe EIP-3047 would be very beneficial to this project in the future.
 
-The whole project is crammed into one giant page.tsx file. Yes. I split the project into several functions plus the page component. There is getMultichainBalances, onchainKitSwap, swapMultichainTokens, bridgeMultichainTokens and App.
-
 The whole thing works by first connecting with the WagmiProvider which has been written into the onchainkit boilerplate. You can then connect with either mobile wallet or smart wallet. When the user clicks the button, the getMultichainBalances is triggered, and the balances of hardcoded tokens DAI and USDC are retrieved from Arbitrum, Base and Optimism (for proof of concept). Depending on the selected 'target coin' and 'target chain' swaps will be executed via swapMultichainTokens/onchainKitSwap. This is essentially as far as I got.
