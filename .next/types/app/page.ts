@@ -1,4 +1,4 @@
-// File: /home/csmit863/Documents/ethglobalbkk/coinbine/app/page.tsx
+// File: /home/csmit863/Documents/ethereum/ethglobalbkk/coinbine/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
