@@ -1,5 +1,8 @@
 Check out my showcase on the ethglobal website: https://ethglobal.com/showcase/undefined-mqesv
 
+![coinmerge](coinmergeicon.png)
+
+
 # Project Description
 
 This project aims to make it easier to unify all of your assets across multiple chains. For example you may have USDC on Base, Arbitrum... DAI on Optimism, Mainnet.. etc. That's just 2 tokens.
